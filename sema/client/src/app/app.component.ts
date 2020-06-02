@@ -76,7 +76,7 @@ export class AppComponent implements OnInit {
   styleFunc = (feature) => {
     return ({
       clickable: false,
-      fillColor: this.avgColorMap(feature.i.media),
+      fillColor: this.avgColorMap(feature.j.media),
       strokeWeight: 1,
       fillOpacity : 1  //Fill opacity 1 = opaco (i numeri tra 0 e 1 sono le gradazioni di trasparenza)
     });
